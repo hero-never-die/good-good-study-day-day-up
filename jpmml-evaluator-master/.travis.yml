@@ -1,0 +1,7 @@
+dist: trusty
+language: java
+script: mvn clean package
+jdk:
+  - oraclejdk9
+  - openjdk8
+  - oraclejdk8
